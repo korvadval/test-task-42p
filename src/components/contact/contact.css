@@ -1,0 +1,19 @@
+.contactMain {
+  margin: 10px 0px 0px 10px;
+  width: calc(100% - 20px);
+}
+.contactMain #name {
+  margin: 0px 0px 5px 0;
+  width: fit-content;
+  font-weight: bold;
+}
+.contactMain #phone {
+  width: fit-content;
+}
+.contactMain label {
+  margin: 0px 10px 0 0;
+}
+hr {
+  border-color: #8892b5;
+  border-style: solid;
+}

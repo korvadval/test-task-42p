@@ -1,0 +1,41 @@
+.backgroundModal {
+  background: #0000009c;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerModal {
+  background: whitesmoke;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  height: max-content;
+}
+.addForm {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.addForm label {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0px 0px 2px 5px;
+}
+.addForm input {
+  height: 20px;
+  margin: 0px 0px 3px 0px;
+}
+.addForm button {
+  margin: 5px 0px 0px 0px;
+  height: 30px;
+}
+.warning {
+  color: red;
+  font-weight: normal !important;
+  font-size: 10px !important;
+}
