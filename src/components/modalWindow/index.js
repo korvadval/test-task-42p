@@ -38,7 +38,7 @@ class ModalWindow extends Component {
       if (!contactName) {
         this.setError("Поле ФИО не может быть пустым!");
       } else {
-        this.setError("Поле Тел не может быть пустым!");
+        this.setError("Поле Номер не может быть пустым!");
       }
     }
   };
